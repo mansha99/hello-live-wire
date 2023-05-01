@@ -6,7 +6,7 @@
 </head>
 
 <body>
+    <livewire:inventors />
 </body>
-<livewire:inventors />
 
 </html>

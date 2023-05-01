@@ -1,9 +1,8 @@
 <div>
-    
-    <select  wire:model="invention">
+    <select wire:model="invention">
         @foreach ($list as $k => $v)
             <option value="{{ $k }}">{{ $k }}</option>
         @endforeach
-    </select>  invented by  
-    {{$inventor}}
+    </select> was invented by
+    {{ $inventor }}
 </div>
